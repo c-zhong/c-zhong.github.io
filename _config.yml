@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Chen Zhong"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Assistant Professor of Cybersecurity, Information and Technology Management Department, John H. Sykes College of Business, The University of Tampa"
   location         : "Location"
   employer         :
   pubmed           : ""
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : ""
+  twitter          : 
   vine             :
   weibo            :
   xing             :
