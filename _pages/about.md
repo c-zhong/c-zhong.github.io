@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+
+Chen Zhong is an assistant professor of [Cybersecurity](https://www.ut.edu/academics/sykes-college-of-business/information-and-technology-management-%28itm%29-degrees/cybersecurity-degree) in the [Information and Technology Management Department](https://www.ut.edu/academics/sykes-college-of-business/information-and-technology-management-%28itm%29-degrees) at the University of Tampa. Her interests cover the areas of Cybersecurity (Intrusion Detection, Incident Response); Applied Artificial Intelligence in Cybersecurity; Explainable AI in Cybersecurity; Data Analytics (Cyber Analytics, Natural Language Processing); Cybersecurity Education. 
+
+She received her Ph.D. degree from School of Information Sciences and Technology at Penn State University. She was advised by [Dr. Peng Liu](https://s2.ist.psu.edu/) and [Dr. John Yen](https://faculty.ist.psu.edu/yen/). She received my Bachelor degree from Department of Computer Science at [Nanjing University](https://www.nju.edu.cn/en/).
+
 
 A data-driven personal website
 ======

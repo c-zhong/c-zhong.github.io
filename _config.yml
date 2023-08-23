@@ -82,10 +82,10 @@ analytics:
 author:
   name             : "Chen Zhong"
   avatar           : "profile.png"
-  bio              : "Assistant Professor of Cybersecurity, Information and Technology Management Department, John H. Sykes College of Business, The University of Tampa"
-  location         : "Location"
+  bio              : "Assistant Professor of Cybersecurity"
+  location         : "The University of Tampa, 401 W Kennedy Blvd, Tampa"
   employer         :
-  pubmed           : ""
+  pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=PFHwwloAAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
