@@ -9,9 +9,16 @@ redirect_from:
 ---
 
 
-Chen Zhong is an assistant professor of [Cybersecurity](https://www.ut.edu/academics/sykes-college-of-business/information-and-technology-management-%28itm%29-degrees/cybersecurity-degree) in the [Information and Technology Management Department](https://www.ut.edu/academics/sykes-college-of-business/information-and-technology-management-%28itm%29-degrees) at the University of Tampa. Her interests cover the areas of Cybersecurity (Intrusion Detection, Incident Response); Applied Artificial Intelligence in Cybersecurity; Explainable AI in Cybersecurity; Data Analytics (Cyber Analytics, Natural Language Processing); Cybersecurity Education. 
+Chen Zhong is an assistant professor of [Cybersecurity](https://www.ut.edu/academics/sykes-college-of-business/information-and-technology-management-%28itm%29-degrees/cybersecurity-degree) in the [Information and Technology Management Department](https://www.ut.edu/academics/sykes-college-of-business/information-and-technology-management-%28itm%29-degrees) at the [University of Tampa](https://www.ut.edu/). 
+
+Her interests cover the areas of Cybersecurity (Intrusion Detection, Incident Response); Applied Artificial Intelligence in Cybersecurity; Explainable AI in Cybersecurity; Data Analytics (Cyber Analytics, Natural Language Processing); Cybersecurity Education. 
 
 She received her Ph.D. degree from School of Information Sciences and Technology at Penn State University. She was advised by [Dr. Peng Liu](https://s2.ist.psu.edu/) and [Dr. John Yen](https://faculty.ist.psu.edu/yen/). She received my Bachelor degree from Department of Computer Science at [Nanjing University](https://www.nju.edu.cn/en/).
+
+Contact
+======
+  * TECH 554B, 401 W Kennedy Blvd, Tampa, FL
+  * Email: czhong at ut dot edu
 
 
 <!--A data-driven personal website
