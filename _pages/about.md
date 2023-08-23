@@ -13,7 +13,7 @@ Chen Zhong is an assistant professor of [Cybersecurity](https://www.ut.edu/acade
 
 Her interests cover the areas of Cybersecurity (Intrusion Detection, Incident Response); Applied Artificial Intelligence in Cybersecurity; Explainable AI in Cybersecurity; Data Analytics (Cyber Analytics, Natural Language Processing); Cybersecurity Education. 
 
-She received her Ph.D. degree from School of Information Sciences and Technology at Penn State University. She was advised by [Dr. Peng Liu](https://s2.ist.psu.edu/) and [Dr. John Yen](https://faculty.ist.psu.edu/yen/). She received my Bachelor degree from Department of Computer Science at [Nanjing University](https://www.nju.edu.cn/en/).
+She received her Ph.D. degree in [Information Sciences and Technology](https://ist.psu.edu/) from Penn State University. She was advised by [Dr. Peng Liu](https://s2.ist.psu.edu/) and [Dr. John Yen](https://faculty.ist.psu.edu/yen/). She received my Bachelor degree from Department of Computer Science at [Nanjing University](https://www.nju.edu.cn/en/).
 
 Contact
 ======
