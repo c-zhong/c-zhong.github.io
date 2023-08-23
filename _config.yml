@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Chen Zhong / Personal Website"
 title_separator          : "-"
 name                     : &name "Chen Zhong"
-description              : &description "personal description"
+description              : &description "Assistant Professor of Cybersecurity"
 url                      : https://c-zhong.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "c-zhong.github.io"
@@ -83,7 +83,7 @@ author:
   name             : "Chen Zhong"
   avatar           : "profile.png"
   bio              : "Assistant Professor of Cybersecurity"
-  location         : "401 W Kennedy Blvd, Tampa, FL"
+  location         : "TECH 554B\n401 W Kennedy Blvd, Tampa, FL"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=PFHwwloAAAAJ&hl=en"
@@ -255,7 +255,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
