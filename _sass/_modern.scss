@@ -181,6 +181,34 @@ a {
   }
 }
 
+.section-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 1.75rem;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.25rem;
+    padding: 0.45rem 0.8rem;
+    border: 1px solid #dbe7f0;
+    border-radius: 999px;
+    background: #f8fbfd;
+    color: #24516c;
+    font-size: 0.92rem;
+    font-weight: 600;
+    text-decoration: none;
+
+    &:hover {
+      border-color: #9ccde3;
+      background: #eaf6fb;
+      color: #0f5f94;
+      text-decoration: none;
+    }
+  }
+}
+
 .service-year {
   float: right;
   margin-left: 1rem;
