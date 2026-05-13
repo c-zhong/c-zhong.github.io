@@ -181,6 +181,13 @@ a {
   }
 }
 
+.service-year {
+  float: right;
+  margin-left: 1rem;
+  color: #64748b;
+  font-weight: 600;
+}
+
 .page__footer {
   margin-top: 3rem;
   background: #172033;
@@ -204,5 +211,11 @@ a {
 
   .sidebar {
     margin-bottom: 1rem;
+  }
+
+  .service-year {
+    display: block;
+    float: none;
+    margin-left: 0;
   }
 }
