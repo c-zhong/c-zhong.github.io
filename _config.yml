@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Chen Zhong / Personal Website"
 title_separator          : "-"
 name                     : &name "Chen Zhong"
-description              : &description "Assistant Professor of Cybersecurity"
+description              : &description "Associate Professor of Cybersecurity"
 url                      : https://c-zhong.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "c-zhong.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Chen Zhong"
   avatar           : "profile.png"
-  bio              : "Assistant Professor of Cybersecurity"
+  bio              : "Associate Professor of Cybersecurity"
   location         : "401 W Kennedy Blvd, Tampa, FL"
   employer         :
   pubmed           : 
