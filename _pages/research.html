@@ -13,6 +13,18 @@ author_profile: true
 
 <p><a href="https://scholar.google.com/citations?user=PFHwwloAAAAJ&hl=en">Google Scholar Profile</a> | <a href="https://orcid.org/0000-0003-2547-941X">ORCID</a></p>
 
+<h2>Research Keyword Cloud</h2>
+
+<div class="word-cloud-tool">
+  <label for="research-area-select">Select a research area</label>
+  <select id="research-area-select">
+    {% for area in site.data.research_keywords.areas %}
+      <option value="{{ forloop.index0 }}">{{ area.name }}</option>
+    {% endfor %}
+  </select>
+  <div id="research-word-cloud" class="word-cloud" aria-live="polite"></div>
+</div>
+
 <h2>Main Research Areas</h2>
 
 <h3>Human-AI Collaboration in Cyber Defense</h3>
@@ -49,3 +61,38 @@ author_profile: true
 </ul>
 
 <p>This research applies NLP and text analytics to Reddit discourse, cybersecurity competition communities, informal learning in cybersecurity, ESG discourse analysis, public sentiment, and broader digital discourse.</p>
+
+<script>
+  (function() {
+    var researchKeywordAreas = {{ site.data.research_keywords.areas | jsonify }};
+    var select = document.getElementById("research-area-select");
+    var cloud = document.getElementById("research-word-cloud");
+
+    function renderWordCloud(areaIndex) {
+      var area = researchKeywordAreas[areaIndex] || researchKeywordAreas[0];
+      var keywords = area.keywords || [];
+      var weights = keywords.map(function(keyword) { return keyword.weight; });
+      var minWeight = Math.min.apply(null, weights);
+      var maxWeight = Math.max.apply(null, weights);
+
+      cloud.innerHTML = "";
+
+      keywords.forEach(function(keyword) {
+        var normalized = maxWeight === minWeight ? 0.5 : (keyword.weight - minWeight) / (maxWeight - minWeight);
+        var span = document.createElement("span");
+        span.className = "word-cloud__term";
+        span.textContent = keyword.text;
+        span.style.fontSize = (0.9 + normalized * 1.35).toFixed(2) + "rem";
+        span.style.opacity = (0.68 + normalized * 0.32).toFixed(2);
+        cloud.appendChild(span);
+      });
+    }
+
+    if (select && cloud && researchKeywordAreas.length) {
+      renderWordCloud(select.value);
+      select.addEventListener("change", function(event) {
+        renderWordCloud(event.target.value);
+      });
+    }
+  })();
+</script>

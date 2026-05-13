@@ -1,0 +1,93 @@
+areas:
+  - name: "All Research Areas"
+    keywords:
+      - text: "Cybersecurity"
+        weight: 34
+      - text: "Artificial Intelligence"
+        weight: 30
+      - text: "Data Analytics"
+        weight: 26
+      - text: "Explainable AI"
+        weight: 24
+      - text: "Threat Detection"
+        weight: 24
+      - text: "Human-AI Collaboration"
+        weight: 22
+      - text: "Cyber Defense"
+        weight: 20
+      - text: "Phishing"
+        weight: 18
+      - text: "Smishing"
+        weight: 18
+      - text: "NLP"
+        weight: 16
+      - text: "Security Education"
+        weight: 15
+      - text: "Social Media Analytics"
+        weight: 14
+  - name: "Human-AI Collaboration in Cyber Defense"
+    keywords:
+      - text: "Explainable AI"
+        weight: 32
+      - text: "Cyber Defense"
+        weight: 28
+      - text: "SOC Analysts"
+        weight: 24
+      - text: "Decision-Making"
+        weight: 23
+      - text: "Alert Triage"
+        weight: 21
+      - text: "Context Awareness"
+        weight: 20
+      - text: "Human Cognition"
+        weight: 18
+      - text: "Knowledge Retrieval"
+        weight: 17
+      - text: "Transparency"
+        weight: 15
+      - text: "Cognitive Load"
+        weight: 14
+  - name: "AI-Powered Threat Detection"
+    keywords:
+      - text: "Threat Detection"
+        weight: 32
+      - text: "Insider Threat"
+        weight: 27
+      - text: "Smishing"
+        weight: 25
+      - text: "Phishing"
+        weight: 24
+      - text: "BERT"
+        weight: 21
+      - text: "Large Language Models"
+        weight: 20
+      - text: "Transformers"
+        weight: 19
+      - text: "Mobile Fleeceware"
+        weight: 18
+      - text: "Dark Patterns"
+        weight: 16
+      - text: "Interpretable Models"
+        weight: 15
+  - name: "Social Media Analytics for Cybersecurity and Business Insights"
+    keywords:
+      - text: "Social Media Analytics"
+        weight: 30
+      - text: "NLP"
+        weight: 26
+      - text: "Text Analytics"
+        weight: 25
+      - text: "Reddit"
+        weight: 22
+      - text: "Cybersecurity Communities"
+        weight: 20
+      - text: "Informal Learning"
+        weight: 18
+      - text: "ESG"
+        weight: 17
+      - text: "Public Sentiment"
+        weight: 16
+      - text: "Digital Discourse"
+        weight: 15
+      - text: "Business Insights"
+        weight: 14
