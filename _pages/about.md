@@ -9,6 +9,8 @@ redirect_from:
 ---
 
 
+[Research](/research/) | [Teaching](/teaching/)
+
 Chen Zhong is an associate professor of [Cybersecurity](https://www.ut.edu/academics/sykes-college-of-business/information-and-technology-management-%28itm%29-degrees/cybersecurity-degree) in the [Sykes College of Business](https://www.ut.edu/academics/sykes-college-of-business) at the [University of Tampa](https://www.ut.edu/). 
 
 Her interests cover the areas of Cybersecurity, Artificial Intelligence in Cybersecurity, Data Analytics, Cybersecurity Training and Education. 
