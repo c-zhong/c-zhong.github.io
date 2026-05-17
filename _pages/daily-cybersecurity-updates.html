@@ -1,0 +1,22 @@
+---
+layout: archive
+title: "Daily Cybersecurity Updates"
+permalink: /daily-cybersecurity-updates/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p>This page collects reviewed daily cybersecurity update posts. Draft summaries are reviewed before publication and only appear here after they are moved into <code>_posts</code>.</p>
+
+{% assign daily_posts = site.posts | where_exp: "post", "post.categories contains 'daily-cybersecurity-updates'" %}
+
+{% if daily_posts.size > 0 %}
+  {% for post in daily_posts %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% else %}
+  <div class="notice--info">
+    <p><strong>No daily cybersecurity updates have been published yet.</strong> Reviewed posts will appear here after publication.</p>
+  </div>
+{% endif %}
