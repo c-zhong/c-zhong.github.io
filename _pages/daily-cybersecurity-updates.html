@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-<p>This page collects reviewed daily cybersecurity update posts. Draft summaries are reviewed before publication and only appear here after they are moved into <code>_posts</code>.</p>
+<p>This page collects reviewed daily cybersecurity update posts.</p>
 
 {% assign daily_posts = site.posts | where_exp: "post", "post.categories contains 'daily-cybersecurity-updates'" %}
 
