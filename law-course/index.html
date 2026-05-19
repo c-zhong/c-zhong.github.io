@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Everyday U.S. Law | 12-Week Course</title>
+    <meta
+      name="description"
+      content="A beginner-friendly 12-week course on everyday U.S. law with official source citations and Chinese explanations of legal terms."
+    >
+    <link rel="stylesheet" href="styles.css?v=2">
+  </head>
+  <body>
+    <header class="hero">
+      <img class="hero-image" src="assets/legal-course-hero.png" alt="Desk with legal learning materials">
+      <div class="hero-overlay"></div>
+      <nav class="topbar" aria-label="Primary">
+        <a class="brand" href="#top" aria-label="Everyday U.S. Law home">
+          <span class="brand-mark">US</span>
+          <span>Everyday Law</span>
+        </a>
+        <div class="nav-links">
+          <a href="#course">Course</a>
+          <a href="#toolkit">Toolkit</a>
+          <a href="#sources">Sources</a>
+        </div>
+      </nav>
+      <section id="top" class="hero-content">
+        <p class="eyebrow">Beginner course with official-source citations</p>
+        <h1>12-Week U.S. Law Learning Path for Daily Life</h1>
+        <p class="hero-copy">
+          Learn the legal ideas normal people actually run into: rights, police encounters,
+          contracts, housing, work, money, family, healthcare, online life, and courts.
+        </p>
+        <div class="hero-actions" aria-label="Course actions">
+          <a class="button primary" href="#course">Start week 1</a>
+          <a class="button secondary" href="#toolkit">Build checklist</a>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="notice" aria-label="Educational disclaimer">
+        <strong>Educational only.</strong>
+        This course is not legal advice. U.S. law changes and varies by state, county, and city.
+        Each week includes a local check so learners verify the rule that applies where they live.
+      </section>
+
+      <section class="overview" aria-labelledby="overview-title">
+        <div>
+          <p class="section-kicker">How to use it</p>
+          <h2 id="overview-title">Two synchronized versions</h2>
+          <p>
+            The left panel gives the English course text. The right panel repeats the same learning
+            material and adds Chinese explanations for law-related terms, keeping the U.S. legal words
+            visible for learners who need to recognize them in real documents.
+          </p>
+        </div>
+        <div class="overview-grid" aria-label="Course highlights">
+          <article>
+            <span>12</span>
+            <p>weekly modules</p>
+          </article>
+          <article>
+            <span>60+</span>
+            <p>plain-English legal terms</p>
+          </article>
+          <article>
+            <span>Official</span>
+            <p>government, court, and legal-aid sources</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="course" class="course" aria-labelledby="course-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Course</p>
+            <h2 id="course-title">Weekly modules</h2>
+          </div>
+          <div class="controls" aria-label="Week selector">
+            <button class="icon-button" id="prevWeek" type="button" aria-label="Previous week">‹</button>
+            <label class="select-label" for="weekSelect">Week</label>
+            <select id="weekSelect"></select>
+            <button class="icon-button" id="nextWeek" type="button" aria-label="Next week">›</button>
+          </div>
+        </div>
+
+        <div class="week-tabs" id="weekTabs" aria-label="Choose a week"></div>
+
+        <article class="module" id="module" aria-live="polite"></article>
+      </section>
+
+      <section id="toolkit" class="toolkit" aria-labelledby="toolkit-title">
+        <div>
+          <p class="section-kicker">Final project</p>
+          <h2 id="toolkit-title">Legal First Aid Plan</h2>
+          <p>
+            At the end of the course, learners should turn the weekly local checks into a practical
+            one-page plan they can use before a problem escalates.
+          </p>
+        </div>
+        <form class="checklist" id="checklist">
+          <label><input type="checkbox"> State court website saved</label>
+          <label><input type="checkbox"> County court and small claims pages saved</label>
+          <label><input type="checkbox"> Local legal aid contact found</label>
+          <label><input type="checkbox"> Tenant, wage, and consumer complaint links saved</label>
+          <label><input type="checkbox"> Lease, contracts, IDs, insurance, and key records organized</label>
+          <label><input type="checkbox"> Advance directive or healthcare proxy form located</label>
+          <label><input type="checkbox"> Emergency legal contacts listed</label>
+          <label><input type="checkbox"> "Never ignore" deadlines written down</label>
+        </form>
+      </section>
+
+      <section id="sources" class="sources" aria-labelledby="sources-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Source library</p>
+            <h2 id="sources-title">Verified and authoritative materials</h2>
+          </div>
+          <p class="source-note">
+            Government and court materials are prioritized. Cornell LII and ACLU are included for
+            legal definitions and civil-rights know-your-rights education.
+          </p>
+        </div>
+        <div id="sourceLibrary" class="source-library"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Built as a public-information learning course. Verify state-specific rules before acting.</p>
+    </footer>
+
+    <script src="script.js?v=2"></script>
+  </body>
+</html>
