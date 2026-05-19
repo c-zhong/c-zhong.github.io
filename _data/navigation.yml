@@ -9,9 +9,6 @@ main:
   - title: "Teaching"
     url: /teaching/
 
-  - title: "Law Course"
-    url: /law-course/
-
   - title: "Office Hour"
     url: /office-hour/
 
@@ -26,4 +23,7 @@ main:
 
   - title: "Airline Service Watch"
     url: /airline-reputation/
+
+  - title: "Law Course"
+    url: /law-course/
     
